@@ -1,4 +1,8 @@
 Responsive Web Desing
+https://www.w3schools.com/cssref/css3_pr_mediaquery.asp
+https://www.w3schools.com/css/css_rwd_mediaqueries.asp
+https://www.w3schools.com/howto/howto_css_responsive_form.asp
+
 
 CSS3 Media Queries
 
