@@ -1,0 +1,54 @@
+Responsive Web Desing
+
+CSS3 Media Queries
+
+Device Toolbar
+ShortCut
+Ctrl + Shift + i
+
+Assignment
+600px < body = red
+600px > body = green
+
+In which resolution you are working?
+
+| OR
+pipesymbol 
+
+media = device = gadgets
+1. Mobiles
+2. Tablets
+3. Laptops
+4. Tvs
+
+For Above cases media type is screen
+
+DOM = Document Object Model /BrowserWindow
+
+
+RWD
+Assignemnts
+
+breakpoints
+
+b1,b2,b3,b4,b5,.....b10
+
+different COlor
+
+breakpoint1
+0px 300px    b3 none,b1 double w/h
+
+breakpoint2
+301-600px
+	box -> circle
+
+breakpoint3
+601 - 800px   all box hidden
+
+brakpoint4
+801-1000px    alternate box
+		b1,b3,b5,b7 background change
+breakpoint5
+1001 - 1200px
+		all even no box hidden
+		b2,b4,b6,b8

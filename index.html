@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CSS Media Queries</title>
+        <style>
+            .box{
+                width: 200px;
+                height: 200px;
+                background-color: orange;
+            }
+            .box2{
+                width: 200px;
+                height: 200px;
+                background-color: blue;
+            }
+
+
+
+            /*At the closing of sytle tag */
+            /*
+                @media not|only mediatype and (mediafeature and|or|not mediafeature) {
+                    CSS-Code;
+                }
+            */
+
+            @media only screen and (max-width: 600px)  { /* 0px - 600px */
+                body{
+                    background-color: red;
+                }
+            }
+            @media only screen and (min-width: 601px)  { /* 601px - max */
+                body{
+                    background-color: green;
+                }
+                .box{
+                    width: 400px;
+                    height: 400px; 
+                }
+                .box2{
+                    display: none;
+                }
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="box">Welcome to OKLABS</div>
+        <div class="box2">Kiran</div>
+
+        
+    </body>
+</html>
